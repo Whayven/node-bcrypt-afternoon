@@ -5,6 +5,12 @@
   "proxy": "http://localhost:4000",
   "main": "server/index.js",
   "dependencies": {
+    "axios": "^0.20.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "massive": "^6.6.0",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-scripts": "2.0.5"
@@ -13,7 +19,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "dev": "nodemon"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -34,5 +41,8 @@
   "bugs": {
     "url": "https://github.com/devlemire/node-auth-afternoon/issues"
   },
-  "homepage": "https://github.com/devlemire/node-auth-afternoon#readme"
+  "homepage": "https://github.com/devlemire/node-auth-afternoon#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
 }
